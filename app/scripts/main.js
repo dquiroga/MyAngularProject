@@ -5,7 +5,7 @@ angular.module('firstApplication', ['ngRoute', 'ngAnimate', 'ngResource',  'ngCo
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/login.tpl',
+        templateUrl: 'views/login.view',
         controller: 'LoginController'
       })
       .when('/home', {
